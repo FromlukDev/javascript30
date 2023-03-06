@@ -6,13 +6,11 @@ function  playSound(e) {
     
     // to control the animations on the buttons using also attribute selector $ to get the data-key event.
     const key = document.querySelector(`.key[data-key="${e.keyCode}"]`); 
-    
     if(!audio) return; // if the key is not playing any audio, make it stop the function from running all together.
     audio.currentTime = 0; // rewind to the start (to make it simultaneous when pressing the keyboard keys).
     audio.play();
     key.classList.add('playing'); // To pull the class in css for the animation fx.
 }
-
 // working on the animation for the border.
 // making the bellow function to control the event happening in the transform property
 function removeTransition(e) {

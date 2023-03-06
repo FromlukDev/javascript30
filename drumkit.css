@@ -39,8 +39,8 @@ body {
 
 .key {
     background-color: rgba(71, 43, 253, 0.4);
-    width: 7rem;
-    height: 7rem;
+    width: 6rem;
+    height: 6rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,9 +49,16 @@ body {
     transition: all .07s;
 }
 
+@media screen and (width: 1440px) {
+    .key {
+        height: 3rem;
+        width: 3rem;
+    }
+}
+
 .sound {
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-transform: uppercase;
     color: rgb(255, 225, 0);
 }

@@ -6,7 +6,7 @@ This is the [Javascript 30](https://javascript30.com/) days Challenge by Wes Bos
 
 My main focus is to get down the JavaScript concepts he's teaching here. So I'm keeping it simple and not spending time with the layout.
 
-The HTML and CSS is my own code and styles. I'm also using my own photo as the background and the audio files are from one of my drumkits as well.
+The HTML and CSS is my own code and styles. I'm also using my own photo as the background and the audio files are from one of my drumkits.
 
 ## Table of contents
 

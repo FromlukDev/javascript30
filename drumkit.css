@@ -24,7 +24,14 @@ body {
     display: grid;
     place-items: center;
 }
-
+.hero {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 auto 5rem auto;
+    color: rgba(255, 225, 0, 0.8);
+    letter-spacing: 1px;
+    text-shadow: 5px 5px 10px rgb(71, 43, 253);
+}
 /* keys container */
 .container {
     width: 75vw;
